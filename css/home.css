@@ -1,0 +1,120 @@
+.homeNavBar{
+    width: 100%;
+    height: 100vh;
+    background-image: url("image/homepage1.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#LoginButton{
+    margin: 0px 10px;
+    display: inline-block;
+}
+
+.navbar-nav{
+    padding: 0px 40px;
+}
+
+#ExploerBtn{
+    display: inline-block;
+}
+
+.travelHead{
+    float: left;
+    margin-top: 10em;
+    margin-left:3em;
+    width: 45%;
+    line-height: 1.5;
+}
+
+.quoteHeading{
+    color: brown;
+}
+
+.introParagraphy{
+    color: black;
+}
+
+@media(max-width:575px){
+    .travelHead{
+        float: clear;
+        width: 100%;
+        margin: 50px 10px; 
+        text-align: center;
+
+    }
+}
+
+.serviceHeading{
+    color: brown;
+}
+
+.ourService{
+    background-color: #fcb83b;
+    color:white;
+    margin: 0;
+}
+
+#aboutusimg{
+    width: 100%;
+    height: 100%;
+    max-width: 400px; 
+    max-height: 500px; 
+    object-fit: cover; 
+  }
+
+  /* Responsive adjustments */
+  @media (min-width: 992px) {
+    #aboutusimg {
+      max-width: 600px;
+      max-height: 600px;
+      margin-top: 20px;
+    }
+  }
+
+  @media(min-width:500px){
+    #aboutusimg{
+        margin-top: 20px;
+    }
+  }
+
+  /* contact us */
+
+  .contact-us-img {
+    width: 100%;
+    height: auto;
+    max-width: 450px;
+    max-height: 350px;
+    object-fit: cover;
+  }
+
+  .contact-btn {
+    background-color: #004AAD; 
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+  }
+
+  .contact-btn:hover {
+    background-color: #4bc9cf; 
+  }
+
+  /* Responsive adjustments */
+  @media (min-width: 992px) {
+    .contact-us-img {
+      max-width: 600px;
+      max-height: 600px;
+    }
+  }
+
+  @media(min-width:500px){
+    .contact-us-img{
+        margin-bottom: 20px;
+    }
+    
+  }
+.contactheading {
+    color: brown;
+}
